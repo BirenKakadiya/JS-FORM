@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    Name: <input type="text" id="uname"><br><br>
+    Email: <input type="email" id="umail"><br><br>
+    Password: <input type="password" id="upass"><br><br>
+    Number: <input type="number" id="unum"><br><br>
+    Image:<input type="file" id="uimg" onchange="encodeImageFileAsURL(this)" multiple /><br><br>
+    <img id="frame" src="" width="100px" alt=""><br><br><br>
+
+    <button onclick="allsubdata()" id="subm">Register</button>
+    <button onclick="subdata()">Login</button>
+    <button onclick="getdata()">Data</button>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
